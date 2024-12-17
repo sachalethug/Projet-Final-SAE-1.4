@@ -234,7 +234,17 @@ h3{
 @media (min-width: 601px) and (max-width: 1024px) { 
 /* Version Tab */
 
-
+.lien1{
+  display: flex;
+  justify-content: center ;
+  margin-right: 20%;
+  }
+  
+.lien2{
+  display: flex;
+  justify-content: center ;
+  margin-left: 5%;
+  }
 
 .taille_image1 {
   display: none
