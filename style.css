@@ -7,16 +7,16 @@ main {
 }
 
 header{
-    display: flex;
-    justify-content: center ;
-    font-family: "Josefin Sans", serif;
-    font-weight: 600;
-    font-size: 200%;
-    background-image: url("picture/minecraft-stone.png");
-    color: aliceblue;
-    margin-top: -0.4%;
-    margin-right: -0.4%;
-    margin-left: -0.4%;
+  display: flex;
+  justify-content: center ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 600;
+  font-size: 200%;
+  background-image: url("picture/minecraft-stone.png");
+  color: aliceblue;
+  margin-top: -0.4%;
+  margin-right: -0.4%;
+  margin-left: -0.4%;
 }
 
 .lien1{
@@ -57,11 +57,6 @@ span {
     transform-origin: center left;
   }
 
-  .intro2{
-    margin-top: 500px;
-  }
-
-
   .intro_texte1 {
     display: flex;
     flex-direction: row;
@@ -95,14 +90,7 @@ span {
     height: 50%;
   }
 
-  h4{
-    display: flex;
-    justify-content: center; 
-    margin-top: 1100px;
-    font-family: "Josefin Sans", serif;
-    font-weight: 600;
-    font-size: 150%;
-}
+
 
 .button {
   z-index: 1;
@@ -142,7 +130,6 @@ span {
   opacity: 0;
 }
 
-
 .zone1 {
   display: flex;
   justify-content: center; 
@@ -158,17 +145,22 @@ a{
   color: aliceblue;
 }
 
-b{
-  text-decoration: none;
-  font-family: "Josefin Sans", serif;
-  font-weight: 600;
-  font-size: 100%;
-  color: aliceblue;
-}
 
 
 @media (min-width: 1024px) {
     /* Version PC */
+h3{
+  display: flex;
+  justify-content: center; 
+  margin-top: 1100px;
+  font-family: "Josefin Sans", serif;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+.intro2{
+margin-top: 500px;
+}
 
     }
 
@@ -182,39 +174,23 @@ main {
   padding: 4%;
   margin-top: 10px;
   } 
-    
-h2{
-  position: absolute;
-  top: 250px;
-  left: 10%;
-}
-    
-h3 {
-  position: absolute;
-  top: 100px;
-  right: 10%;
-}
-
 
 .lien1{
   position: absolute;
-  left: 7%;
+  left: 15%;
   top: 0%;
   right: 70%;
   }
   
 .lien2{
   position: absolute;
-  right: 0%;
+  right: 15%;
   top: 0%;
-  left: 80%;
+  left: 70%;
   }
 
 a{
   font-size: 50%;
-  margin-right: -0.4%;
-  margin-left: -0.4%;
-
 }
 
 h1{
@@ -224,30 +200,32 @@ h1{
   }
 
 .taille_image1 {
-  visibility: hidden
+  display: none
 }
 
 .taille_image2 {
-  visibility: hidden
+  display: none
 }
 
-.intro {
-  margin-top: -60%;
+.intro{
+  display: flex;
+  justify-content: center ;
   font-size: 80%;
 }
 
 .intro2 {
-  margin-top: 100%;
+  display: flex;
+  justify-content: center ;
   font-size: 80%;
-  }
-
-h4{
-  position: relative;
-  margin-left: 10%;
-  margin-top: 275%;
+  margin-top: 400px;
 }
 
-b{
+h3{
+  display: flex;
+  justify-content: center; 
+  margin-top: 400px;
+  font-family: "Josefin Sans", serif;
+  font-weight: 600;
   font-size: 150%;
 }
 
@@ -256,36 +234,38 @@ b{
 @media (min-width: 601px) and (max-width: 1024px) { 
 /* Version Tab */
 
-    
-h2 {
-  position: absolute;
-  top: 250px;
-  left: 1%;
-  right: -10%;
-}
 
 
 .taille_image1 {
-  visibility: hidden
+  display: none
 }
     
 .taille_image2 {
-  visibility: hidden
+  display: none
 }
 
 .intro {
-  margin-top: -12%;
+  display: flex;
+  justify-content: center ;
+  font-size: 80%;
 }
 
 .intro2 {
-  margin-top: 50%;
+  display: flex;
+  justify-content: center ;
+  font-size: 80%;
+  margin-top: 350px;
   }
 
-  h4{
-    position: relative;
-    margin-left: 10%;
-    margin-top: 130%;
-  }
+
+h3{
+  display: flex;
+  justify-content: center; 
+  margin-top: 350px;
+  font-family: "Josefin Sans", serif;
+  font-weight: 600;
+  font-size: 150%;
+}
 
 }
 

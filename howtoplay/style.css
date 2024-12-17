@@ -12,7 +12,7 @@ header{
     font-family: "Josefin Sans", serif;
     font-weight: 600;
     font-size: 200%;
-    background-image: url("picture/minecraft-stone.png");
+    background-image: url("../picture/minecraft-stone.png");
     color: aliceblue;
     margin-top: -0.4%;
     margin-right: -0.4%;
@@ -21,9 +21,9 @@ header{
 
 .lien1{
   position: absolute;
-  left: 10%;
+  left: 15%;
   top: 5%;
-  right: 60%;
+  right: 65%;
 }
 
 .lien2{
@@ -105,150 +105,154 @@ span {
 }
 
 
-  
+
+
+.zone1 {
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px;
+
+}
+
+a{
+  text-decoration: none;
+  font-family: "Josefin Sans", serif;
+  font-weight: 600;
+  font-size: 100%;
+  color: aliceblue;
+}
+
+
+
 @media (min-width: 1024px) {
     /* Version PC */
 
-        
-        /* h2 {
-            position: absolute;
-            top: 250px;
-            left: 10%;
-            right: 60%;
-            font-family: "Josefin Sans", serif;
-            font-weight: 600;
-            font-size: 150%;
-        }
-        
-        h3 {
-            position: absolute;
-            top: 850px;
-            right: 10%;
-            left: 60%;
-            font-family: "Josefin Sans", serif;
-            font-weight: 600;
-            font-size: 150%;
-
-        }
-
-        h4{
-            display: flex;
-            justify-content: center; 
-            margin-top: 800px;
-            font-family: "Josefin Sans", serif;
-            font-weight: 600;
-            font-size: 150%;
-        } */
-        .zone1 {
-            display: flex;
-            justify-content: center; 
-            margin-top: 10px;
-
-        }
-
-        a{
-            text-decoration: none;
-            font-family: "Josefin Sans", serif;
-            font-weight: 600;
-            font-size: 150%;
-            color: aliceblue;
-
-        }
-
-        .button {
-            z-index: 1;
-            position: relative;
-            font-size: inherit;
-            font-family: inherit;
-            color: rgb(255, 243, 243);
-            padding: 0.5em 1em;
-            outline: none;
-            border: none;
-            background-color: hsl(236, 32%, 26%);
-
-            
-          }
-          
-          .button:hover {
-            cursor: pointer;
-          }
-          
-          .button::before {
-            content: '';
-            z-index: -1;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            border: 4px solid hsl(236, 32%, 26%);
-            transform-origin: center;
-            transform: scale(1);
-          }
-          
-          .button:hover::before {
-            transition: all 0.75s ease-in-out;
-            transform-origin: center;
-            transform: scale(1.75);
-            opacity: 0;
-          }
-          
-          
     }
 
 @media (max-width: 600px) {
 /* Version Mobile */
-    main {
-        /* background-image: url("picture/minecraft-backround.png"); */
-        background-size: 100%;
-        font-weight: 600;
-        font-size: 150%;
-        padding: 4%;
-        margin-top: 10px;
-    }
+main {
+  background-size: 100%;
+  font-weight: 600;
+  font-size: 150%;
+  padding: 4%;
+  margin-top: 10px;
+  } 
     
-    h2 {
-        position: absolute;
-        top: 250px;
-        left: 10%;
-    }
+h2{
+  position: absolute;
+  top: 250px;
+  left: 10%;
+}
     
-    h3 {
-        position: absolute;
-        top: 100px;
-        right: 10%;
-    }
+h3 {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+
+
+.lien1{
+  position: absolute;
+  left: 7%;
+  top: 0%;
+  right: 70%;
+  }
+  
+.lien2{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  left: 80%;
+  }
+
+a{
+  font-size: 50%;
+  margin-right: -0.4%;
+  margin-left: -0.4%;
+
+}
+
+h1{
+  font-size: 120%;
+  margin-right: -0.4%;
+  margin-left: -0.4%;
+  }
+
+.taille_image1 {
+  visibility: hidden
+}
+
+.taille_image2 {
+  visibility: hidden
+}
+
+.intro {
+  margin-top: -60%;
+  font-size: 80%;
+}
+
+.intro2 {
+  margin-top: 100%;
+  font-size: 80%;
+  }
+
+h4{
+  position: relative;
+  margin-left: 10%;
+  margin-top: 275%;
+}
+
+b{
+  font-size: 150%;
+}
+
 }
 
 @media (min-width: 601px) and (max-width: 1024px) { 
 /* Version Tab */
-    main {
-        /* background-image: url("picture/minecraft-backround.png"); */
-        background-size: 100%;
-        font-weight: 600;
-        font-size: 150%;
-        padding: 4%;
-        margin-top: 10px;
-    }
+
     
-    h2 {
-        position: absolute;
-        top: 250px;
-        left: 10%;
-    }
+h2 {
+  position: absolute;
+  top: 250px;
+  left: 1%;
+  right: -10%;
+}
+
+
+.taille_image1 {
+  visibility: hidden
+}
     
-    h3 {
-        position: absolute;
-        top: 100px;
-        right: 10%;
-    }
+.taille_image2 {
+  visibility: hidden
+}
+
+.intro {
+  margin-top: -12%;
+}
+
+.intro2 {
+  margin-top: 50%;
+  }
+
+h4{
+  position: relative;
+  margin-left: 10%;
+  margin-top: 130%;
+}
+
 }
 
     
 /* --- Curseur --- */
 
 body{
-  cursor: url("picture/cursor.cur"), auto;
+  cursor: url("../picture/cursor.cur"), auto;
+  background-image: url("../picture/cool-background.png");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* --- Bas de page --- */
@@ -259,7 +263,7 @@ footer{
   font-family: "Josefin Sans", serif;
   font-weight: 600;
   font-size: 200%;
-  background-image: url("picture/minecraft-lava.png");
+  background-image: url("../picture/minecraft-lava.png");
   color: aliceblue;
   margin-top: 10%;
   margin-right: -4.8%;
