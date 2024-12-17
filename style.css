@@ -233,16 +233,18 @@ h1{
 
 .intro {
   margin-top: -60%;
+  font-size: 80%;
 }
 
 .intro2 {
-  margin-top: 175%;
+  margin-top: 100%;
+  font-size: 80%;
   }
 
 h4{
   position: relative;
   margin-left: 10%;
-  margin-top: 420%;
+  margin-top: 275%;
 }
 
 b{
