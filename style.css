@@ -166,13 +166,6 @@ b{
   color: aliceblue;
 }
 
-c{
-  text-decoration: none;
-  font-family: "Josefin Sans", serif;
-  font-weight: 600;
-  font-size: 100%;
-  color: aliceblue;
-}
 
 @media (min-width: 1024px) {
     /* Version PC */
