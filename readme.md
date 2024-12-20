@@ -15,6 +15,7 @@ Sources externes utilisées :
 
   - Google Font
   - CSSFX
+  - Validation W3C
 
 
 Made with ❤ and 😎 !
